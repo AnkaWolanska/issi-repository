@@ -14,6 +14,8 @@ def hello_world():
         return f"{arg1} + {arg2} = {arg1+arg2}"
     if op == '-':
         return f"{arg1} - {arg2} = {arg1-arg2}"
+    if op == '*':
+        return f"{arg1} * {arg2} = {arg1*arg2}"
     return f"invalid operation: {op}"
 
 if __name__ == '__main__':
