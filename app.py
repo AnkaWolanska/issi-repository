@@ -5,7 +5,7 @@ from flask import request
 app = Flask(__name__)
 
 @app.route('/calculate')
-def hello_world():
+def calculate():
     """Perform calculations"""
     op = request.args.get('op', type=str)
     arg1 = request.args.get('arg1', type=int)
